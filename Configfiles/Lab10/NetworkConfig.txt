@@ -1,0 +1,24 @@
+<NetworkConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/ServiceHosting/2011/07/NetworkConfiguration">
+  <VirtualNetworkConfiguration>
+    <Dns>
+      <DnsServers>
+        <DnsServer name="ADATUM-DNS" IPAddress="10.0.0.4" />
+      </DnsServers>
+    </Dns>
+    <VirtualNetworkSites>
+      <VirtualNetworkSite name="ADATUM-HQ-VNET" Location="Location1">
+        <AddressSpace>
+          <AddressPrefix>10.0.0.0/8</AddressPrefix>
+        </AddressSpace>
+        <Subnets>
+          <Subnet name="Subnet-1">
+            <AddressPrefix>10.0.0.0/11</AddressPrefix>
+          </Subnet>
+        </Subnets>
+        <DnsServersRef>
+          <DnsServerRef name="ADATUM-DNS" />
+        </DnsServersRef>
+      </VirtualNetworkSite>
+   </VirtualNetworkSites>
+  </VirtualNetworkConfiguration>
+</NetworkConfiguration>

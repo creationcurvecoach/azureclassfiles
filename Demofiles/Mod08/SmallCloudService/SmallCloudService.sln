@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "SmallCloudService", "SmallCloudService\SmallCloudService.ccproj", "{23764CAB-4A7E-464F-AE71-01FE2CD6B152}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallWebRole", "SmallWebRole\SmallWebRole.csproj", "{A68BA9A3-A1B9-41D2-B4FF-F1542A1C4698}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23764CAB-4A7E-464F-AE71-01FE2CD6B152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23764CAB-4A7E-464F-AE71-01FE2CD6B152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23764CAB-4A7E-464F-AE71-01FE2CD6B152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23764CAB-4A7E-464F-AE71-01FE2CD6B152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68BA9A3-A1B9-41D2-B4FF-F1542A1C4698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68BA9A3-A1B9-41D2-B4FF-F1542A1C4698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68BA9A3-A1B9-41D2-B4FF-F1542A1C4698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68BA9A3-A1B9-41D2-B4FF-F1542A1C4698}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
